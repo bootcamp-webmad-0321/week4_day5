@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+  font-weight: 200; }
+
+.navbar {
+  margin-bottom: 50px; }
+
+#message {
+  border: 1px solid;
+  padding: 8px 20px;
+  position: fixed;
+  bottom: -200px;
+  right: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  animation: show-me 5s forwards;
+  background-color: #b6ffb6;
+  font-size: .7em;
+  max-width: 200px; }
+
+#message p {
+  margin: 0;
+  padding: 0; }
+
+@keyframes show-me {
+  0% {
+    bottom: -200px; }
+  10% {
+    bottom: 10px; }
+  90% {
+    bottom: 10px; }
+  100% {
+    bottom: -200px; } }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,19 @@
+<div class="container">
+    <h1>Listado de libros</h1>
+    <hr>
+    <ul>
+        {{#each allBooks}}
+        <li>{{title}} | <a href="/libros/detalles/{{id}}">info</a> | <a href="/libros/editar?book_id={{id}}">editar</a>
+        </li>
+        {{/each}}
+    </ul>
+    <hr>
+    <a href="/" class="btn btn-dark">Volver al incio</a>
+</div>
+
+
+{{#if msg}}
+<div id="message">
+    <p>{{msg}}</p>
+</div>
+{{/if}}

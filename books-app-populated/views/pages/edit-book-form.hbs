@@ -1,0 +1,32 @@
+<div class="container">
+
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+
+            <h1>Editar {{title}}</h1>
+            <hr>
+
+            <form action="/libros/editar?book_id={{id}}" method="POST">
+                <div class="form-group">
+                    <label for="title">Título</label>
+                    <input type="text" class="form-control" id="title" name="title" value="{{title}}">
+                </div>
+                <div class="form-group">
+                    <label for="desc">Descripción</label>
+                    <input type="text" class="form-control" id="desc" name="description" value="{{description}}">
+                </div>
+                <div class="form-group">
+                    <label for="auth">Autor/a</label>
+                    <input type="text" class="form-control" id="auth" name="author" value="{{author}}">
+                </div>
+                <div class="form-group">
+                    <label for="rate">Puntuación</label>
+                    <input type="text" class="form-control" id="rate" name="rating" value="{{rating}}">
+                </div>
+
+                <button type="submit" class="btn btn-dark btn-block">Guardar edición</button>
+            </form>
+
+        </div>
+    </div>
+</div>
