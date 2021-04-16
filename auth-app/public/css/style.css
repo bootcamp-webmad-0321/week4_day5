@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+  font-weight: 200; }
+
+.navbar {
+  margin-bottom: 50px; }
+
+#error {
+  background-color: #ff5a5a;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  width: 100%;
+  margin-top: 20px; }
+
+#error p {
+  margin: 0; }
+
+/*# sourceMappingURL=style.css.map */
