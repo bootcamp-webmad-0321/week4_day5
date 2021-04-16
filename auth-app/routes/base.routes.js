@@ -79,7 +79,7 @@ router.post('/inicio-sesion', (req, res) => {
 
 
 router.get('/cerrar-sesion', (req, res) => {
-    req.session.destroy((err) => res.redirect("/iniciar-sesion"));
+    req.session.destroy((err) => res.redirect("/inicio-sesion"));
 })
 
 // DETECTOR SESION
